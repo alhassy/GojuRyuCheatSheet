@@ -1,0 +1,171 @@
+* Header                                                      :do:not:ignore:
+#+TITLE: Goju-Ryu Karate
+#+SUBTITLE: Cheat Sheet
+#+MACRO: URL https://github.com/alhassy/GojuRyuCheatSheet
+#+MACRO: ShowURL @@latex:{\tiny\hspace{6em}\url{ {{{URL}}} } }@@
+#+AUTHOR: [[http://www.cas.mcmaster.ca/~alhassm/][Musa Al-hassy]] {{{ShowURL}}}
+#+EMAIL: alhassy@gmail.com
+#+DESCRIPTION: This document is written by Musa Al-hassy for his learning in the Winter of 2019.
+#+STARTUP: hideblocks
+#+STARTUP: overview
+#+TODO: spacing
+#+OPTIONS: d:nil
+
+#+INCLUDE: CheatSheet/CheatSheetSetup.org
+
+* General Terms
+| Sensei   | teacher           |
+| O'Sensei | Teacher's teacher |
+| Dojo     | training hall     |
+| Nippon   | Japan             |
+| Kihon    | Basics            |
+| Gi       | Uniform           |
+| Obi      | Belt              |
+| Kyu      | Boy               |
+| Dan      | Man               |
+| Mukso    | Meditate          |
+| Kimi     | Focus             |
+| Kilskai  | Attention         |
+| Rei      | Bow               |
+| Ashimai  | Begin             |
+| Yemai    | Stop              |
+| Kia      | Yell              |
+
+* Dachi --Stance
+#+begin_center
+/Power is rooted in the feet, developed by the knees, and directed by the hips!/
+#+end_center
+
+| Sanchin   dachi | Power   stance  |
+| Zenkutsu  dachi | Forward stance  |
+| Sheko     dachi | Straddle stance |
+| Heiko     dachi | Natural stance  |
+| Musubu    dachi | Ready   stance  |
+| Neko ashi dachi | Cat     stance  |
+* Geri --Kick
+#+begin_center
+/Except the instep roundhouse, remember to curl your toes for each and every kick!/
+#+end_center
+| Mae Geri       | Front kick      |
+| Kensetsu Geri  | Joint kick      |
+| Mawashi Geri   | Roundhouse kick |
+| Ushiro Geri    | Back kick       |
+| Yoko Geri      | Side kick       |
+| Fumi Komi Geri | Stomp kick      |
+| Hiza Geri      | Knee kick       |
+| Mikasuki Geri  | Crescent kick   |
+
+#+begin_center
+/Remember the join sequence: All kicks start with the hips, work to the knee, and finish with the ankle./
+#+end_center
+* Uke --Block
+#+begin_center
+/90% of blocks are executed with the front hand, making it easier to counter!/
+#+end_center
+
+| Hariatoshi  | 3 point low block  |
+| Kake uke    | Hooking block      |
+| Mawashi uke | Roundhouse block   |
+| Age uke     | High block         |
+| Uchi uke    | Inside block       |
+| Soto uke    | Outside block      |
+| Gedan bari  | Low sweeping block |
+| Kakuto uke  | Chicken head block |
+| Teisho uke  | Palm block         |
+
+* Te --Hand Strikes
+#+begin_center
+/The principles of expansion and contraction are a must when striking and as well for blocking!/
+#+end_center
+
+| Oi zuke      | Lunge punch   |
+| Gyaku zuke   | Reverse punch |
+| Kizama zuke  | Jab punch     |
+| Shuto        | Knifehand     |
+| Teisho       | Palm heel     |
+| Empi         | Elbow         |
+| Rekkan       | Backfist      |
+| Nukite       | Finger strike |
+| Mawashi zuke | Hook punch    |
+
+* Japanese Numbers
+  |  0 | rei   |
+  |  1 | ichi  |
+  |  2 | ni    |
+  |  3 | san   |
+  |  4 | yon   |
+  |  5 | go    |
+  |  6 | roku  |
+  |  7 | nana  |
+  |  8 | hachi |
+  |  9 | kyu   |
+  | 10 | juu   |
+         
+* spacing newpage                                            :ignore:
+  \newpage
+* Kata  --Forms                              
+| Taikyoku Gedan       | First course lower          |
+| Taikyoku Chudan      | First course middle         |
+| Taikyoku Jodan       | First course upper          |
+| Taikyoku Mawashi Uke | First course circular block |
+| Taikyoku Kake Uke    | First course hooking block  |
+| Gekisai Itch         | Attack & Smash 1            |
+| Gakisai Ni           | Attack & Smash 2            |
+| Sanchin              | Three battles               |
+| Tensho               | Turning                     |
+| Saifa                | Destroy, Defeat             |
+| Seienchin            | Attack, Conquer, Suppress   |
+| Sanseiru             | Thirty-six movements        |
+| Shi Sho Chin         | Twenty-seven movements      |
+| Seisun               | Fifty-six movements         |
+| Seipai               | Eighteen movements          |
+
+* COMMENT Making README.md
+
+C-c C-c: Evaluate src block.
+
+#+NAME: make-readme
+#+BEGIN_SRC emacs-lisp :results none
+(with-temp-buffer
+    (insert 
+    "#+EXPORT_FILE_NAME: README.md
+     #+HTML: <h1> CheatSheet </h1>
+     #+OPTIONS: toc:nil d:nil
+     # Toc is displayed below at a strategic position.
+
+     Pretty cheat sheets, or “reference cards”, obtainable from Org-mode files.
+
+     :Hide:
+     This project is to contain a listing of common results in X Theory.
+     
+     *The repo contains other articles I've written on X Theory;*
+     *which may be read in a blog-format at:*
+     https://alhassy.github.io/blog/categories/#Xtheory
+     :End:
+
+     *The listing sheet, as PDF, can be found
+     [here]({{{URL}}}/blob/master/CheatSheet.pdf)*, 
+     while below is an unruly html rendition.
+ 
+     :Hide:
+     This reference sheet is built around the system
+     https://github.com/alhassy/CheatSheet.
+     :End:
+
+     #+TOC: headlines 2
+     #+INCLUDE: CheatSheet.org     
+    ")
+    ;; (set-visited-file-name "ReadIt2.md")
+    (org-mode)
+    (org-md-export-to-markdown)
+)
+#+END_SRC
+
+* COMMENT footer
+
+# Local Variables:
+# eval: (org-babel-tangle)
+# eval: (progn (org-babel-goto-named-src-block "make-readme") (org-babel-execute-src-block) (outline-hide-sublevels 1))
+# eval: (load-file "CheatSheet.el")
+# compile-command: (my/org-latex-export-to-pdf)
+# End:

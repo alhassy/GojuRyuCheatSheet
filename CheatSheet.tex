@@ -1,0 +1,303 @@
+% Created 2019-03-04 Mon 16:23
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{titling}
+\def\maketitle#1{}
+\usepackage[landscape,twocolumn, margin=0.5in]{geometry}
+\usepackage{eufrak} % for mathfrak fonts
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor} % named colours
+\usepackage{color}
+\definecolor{darkgreen}{rgb}{0.0, 0.3, 0.1}
+\definecolor{darkblue}{rgb}{0.0, 0.1, 0.3}
+\hypersetup{colorlinks,linkcolor=darkblue,citecolor=darkblue,urlcolor=darkgreen}
+\setlength{\parindent}{0pt}
+\usepackage{enumitem}
+\RequirePackage{fancyvrb}
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize}
+\author{\href{http://www.cas.mcmaster.ca/\~alhassm/}{Musa Al-hassy} {\tiny\hspace{6em}\url{ https://github.com/alhassy/GojuRyuCheatSheet } }}
+\date{\today}
+\title{Goju-Ryu Karate\\\medskip
+\large Cheat Sheet}
+\hypersetup{
+ pdfauthor={\href{http://www.cas.mcmaster.ca/\~alhassm/}{Musa Al-hassy} {\tiny\hspace{6em}\url{ https://github.com/alhassy/GojuRyuCheatSheet } }},
+ pdftitle={Goju-Ryu Karate},
+ pdfkeywords={},
+ pdfsubject={This document is written by Musa Al-hassy for his learning in the Winter of 2019.},
+ pdfcreator={Emacs 26.1 (Org mode 9.2.1)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\fontsize{9}{10}\selectfont
+
+\theauthor \hfill \thedate
+\hline
+{\center \large\bf \thetitle \\ }
+
+
+\definecolor{grey}{rgb}{0.5,0.5,0.5}
+
+
+%
+% Note the * makes the numbering dissapear; 
+% See §7.2 of the manual: http://mirror.its.dal.ca/ctan/macros/latex/base/classes.pdf
+% 
+\makeatletter
+\renewcommand\section[1]{
+  \@startsection {section}{1}{0ex}%
+                 {-3.5ex \@plus -1ex \@minus -.2ex}%
+                 {-1em}%
+		 { \color{black}\normalfont\bfseries}* {\fbox{#1} \vspace{1ex}\newline }}
+		 
+\makeatother
+
+% The black-colour is to ensure no accidental spill-over when using other colour; e.g. \invisibleHI
+
+\def\labelitemi{$\diamond$}
+\def\labelitemii{$\circ$}
+\def\labelitemiii{$\star$}
+
+% Level 0                 Level 0
+% + Level 1               ⋄ Level 1 
+%   - Level 2       --->      ∘ Level 2 
+%     * Level 3                   ⋆ Level 3
+% 
+
+\setitemize{itemsep=2pt,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setdescription{itemsep=0.3em,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\renewenvironment{parallel}[1][2] % one argument, whose default value is literal `2`.
+ {
+  \setlength{\columnseprule}{2pt}
+  \begin{minipage}[t]{\linewidth} % width of minipage is 100% times of \linewidth
+  \begin{multicols}{#1}  % default is `2`
+ }
+ { 
+  \end{multicols}
+  \end{minipage}
+ }
+
+% Common case is to have three columns, want to avoid invoking the attribute via org, so making this.
+\newenvironment{parallel3}
+ {
+  \setlength{\columnseprule}{2pt}
+  \begin{minipage}[t]{\linewidth} % width of minipage is 100% times of \linewidth
+  \begin{multicols}{3}
+ }
+ { 
+  \end{multicols}
+  \end{minipage}
+ }
+
+
+% paralellNB, this is paralell enviro but with `N`o  `B`ar in-between the columns.
+
+\newenvironment{parallelNB}[1][2] % one argument, whose default value is literal `2`.
+ {
+  \setlength{\columnseprule}{0pt}
+  \begin{minipage}[t]{\linewidth} % width of minipage is 100% times of \linewidth
+  \begin{multicols}{#1}  % default is `2`
+ }
+ { 
+  \end{multicols}
+  \end{minipage}
+ }
+
+\newenvironment{parallel3NB}
+ {
+  \setlength{\columnseprule}{0pt}
+  \begin{minipage}[t]{\linewidth} % width of minipage is 100% times of \linewidth
+  \begin{multicols}{3}
+ }
+ { 
+  \end{multicols}
+  \end{minipage}
+ }
+
+\def\providedS{ \qquad\Leftarrow\qquad }
+
+\def\impliesS{ \qquad\Rightarrow\qquad }
+
+\def\landS{ \qquad\land\qquad }
+\def\lands{ \quad\land\quad }
+
+\def\eqs{ \quad=\quad}
+
+\def\equivs{ \quad\equiv\quad}
+\def\equivS{ \qquad\equiv\qquad}
+
+\def\begineqns{ \begingroup\setlength{\abovedisplayskip}{-1pt}\setlength{\belowdisplayskip}{-1pt} }
+\def\endeqns{ \endgroup }
+
+\def\room{\vspace{0.5em}}
+
+% Usage: \eqn{name}{formula}
+\setlength{\abovedisplayskip}{5pt} \setlength{\belowdisplayskip}{2pt}
+\def\eqn#1#2{ \begin{flalign*} #2 && \tag*{\sc #1} \label{#1} \end{flalign*}  }
+
+% \setlength{\parskip}{1em}
+
+
+\def\invisibleHI{ \invisible{Hi} }
+\def\invisible#1{ {\color{white}{#1}}  }
+
+\def\forcenewline{ {\color{white} .} \newline }
+\def\forcenewpage{ {\color{white} .} \newpage }
+
+\section{General Terms}
+\label{sec:orgd2e0074}
+\begin{center}
+\begin{tabular}{ll}
+Sensei & teacher\\
+O'Sensei & Teacher's teacher\\
+Dojo & training hall\\
+Nippon & Japan\\
+Kihon & Basics\\
+Gi & Uniform\\
+Obi & Belt\\
+Kyu & Boy\\
+Dan & Man\\
+Mukso & Meditate\\
+Kimi & Focus\\
+Kilskai & Attention\\
+Rei & Bow\\
+Ashimai & Begin\\
+Yemai & Stop\\
+Kia & Yell\\
+\end{tabular}
+\end{center}
+
+\section{Dachi --Stance}
+\label{sec:org0eb2c4f}
+\begin{center}
+\emph{Power is rooted in the feet, developed by the knees, and directed by the hips!}
+\end{center}
+
+\begin{center}
+\begin{tabular}{ll}
+Sanchin   dachi & Power   stance\\
+Zenkutsu  dachi & Forward stance\\
+Sheko     dachi & Straddle stance\\
+Heiko     dachi & Natural stance\\
+Musubu    dachi & Ready   stance\\
+Neko ashi dachi & Cat     stance\\
+\end{tabular}
+\end{center}
+\section{Geri --Kick}
+\label{sec:org334c71a}
+\begin{center}
+\emph{Except the instep roundhouse, remember to curl your toes for each and every kick!}
+\end{center}
+\begin{center}
+\begin{tabular}{ll}
+Mae Geri & Front kick\\
+Kensetsu Geri & Joint kick\\
+Mawashi Geri & Roundhouse kick\\
+Ushiro Geri & Back kick\\
+Yoko Geri & Side kick\\
+Fumi Komi Geri & Stomp kick\\
+Hiza Geri & Knee kick\\
+Mikasuki Geri & Crescent kick\\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\emph{Remember the join sequence: All kicks start with the hips, work to the knee, and finish with the ankle.}
+\end{center}
+\section{Uke --Block}
+\label{sec:org38c5cfd}
+\begin{center}
+\emph{90\% of blocks are executed with the front hand, making it easier to counter!}
+\end{center}
+
+\begin{center}
+\begin{tabular}{ll}
+Hariatoshi & 3 point low block\\
+Kake uke & Hooking block\\
+Mawashi uke & Roundhouse block\\
+Age uke & High block\\
+Uchi uke & Inside block\\
+Soto uke & Outside block\\
+Gedan bari & Low sweeping block\\
+Kakuto uke & Chicken head block\\
+Teisho uke & Palm block\\
+\end{tabular}
+\end{center}
+
+\section{Te --Hand Strikes}
+\label{sec:orgc2395a0}
+\begin{center}
+\emph{The principles of expansion and contraction are a must when striking and as well for blocking!}
+\end{center}
+
+\begin{center}
+\begin{tabular}{ll}
+Oi zuke & Lunge punch\\
+Gyaku zuke & Reverse punch\\
+Kizama zuke & Jab punch\\
+Shuto & Knifehand\\
+Teisho & Palm heel\\
+Empi & Elbow\\
+Rekkan & Backfist\\
+Nukite & Finger strike\\
+Mawashi zuke & Hook punch\\
+\end{tabular}
+\end{center}
+
+\section{Japanese Numbers}
+\label{sec:org0affc43}
+\begin{center}
+\begin{tabular}{rl}
+0 & rei\\
+1 & ichi\\
+2 & ni\\
+3 & san\\
+4 & yon\\
+5 & go\\
+6 & roku\\
+7 & nana\\
+8 & hachi\\
+9 & kyu\\
+10 & juu\\
+\end{tabular}
+\end{center}
+
+\newpage
+\section{Kata  --Forms}
+\label{sec:org8140f14}
+\begin{center}
+\begin{tabular}{ll}
+Taikyoku Gedan & First course lower\\
+Taikyoku Chudan & First course middle\\
+Taikyoku Jodan & First course upper\\
+Taikyoku Mawashi Uke & First course circular block\\
+Taikyoku Kake Uke & First course hooking block\\
+Gekisai Itch & Attack \& Smash 1\\
+Gakisai Ni & Attack \& Smash 2\\
+Sanchin & Three battles\\
+Tensho & Turning\\
+Saifa & Destroy, Defeat\\
+Seienchin & Attack, Conquer, Suppress\\
+Sanseiru & Thirty-six movements\\
+Shi Sho Chin & Twenty-seven movements\\
+Seisun & Fifty-six movements\\
+Seipai & Eighteen movements\\
+\end{tabular}
+\end{center}
+\end{document}
