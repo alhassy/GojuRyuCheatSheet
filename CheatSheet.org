@@ -14,6 +14,11 @@
 #+INCLUDE: CheatSheet/CheatSheetSetup.org
 
 * General Terms
+
+# latex:  {\vspace{-0em} .\hspace{20em} \fbox{Japanese numbers}} \\
+
+#+begin_parallel 
+
 | Sensei   | teacher           |
 | O'Sensei | Teacher's teacher |
 | Dojo     | training hall     |
@@ -31,79 +36,142 @@
 | Yemai    | Stop              |
 | Kia      | Yell              |
 
+| [[https://www.linguajunkie.com/japanese/count-in-japanese-1-100][_Japanese Numbers_]] |
+
+  |    0 | rei   |
+  |    1 | ichi  |
+  |    2 | ni    |
+  |    3 | san   |
+  |    4 | yon   |
+  |    5 | go    |
+  |    6 | roku  |
+  |    7 | nana  |
+  |    8 | hachi |
+  |    9 | kyuu  |
+  |   10 | juu   |
+  |  100 | hyaku |
+  | 1000 | sen   |
+#+end_parallel
+
++ 11, 12, …, 19  are juu ichi, juu ni, …, juu kyuu.
++ 20, 30, …, 90  are ni juu, san juu, …, kyuu juu.
+  - Likewise, 200, …, 900 are ni hyaku, …, kyuu hyaku.
+    * Exceptions: 300 san byaku, 600 ro ppyaku, 800 ha ppyaku.
++ twenty-one, sixty-nine, eighty-two, … are 
+   ni juu ichi, roku juu kyuu, hachi juu ni, … .
+  - Likewise, 368 is three hundred and sixty-eight which is san byaku roku juu hachi.
+
+** COMMENT Japanese Numbers
+   |  0 | rei   |
+   |  1 | ichi  |
+   |  2 | ni    |
+   |  3 | san   |
+   |  4 | yon   |
+   |  5 | go    |
+   |  6 | roku  |
+   |  7 | nana  |
+   |  8 | hachi |
+   |  9 | kyu   |
+   | 10 | juu   |
+         
 * Dachi --Stance
 #+begin_center
 /Power is rooted in the feet, developed by the knees, and directed by the hips!/
 #+end_center
 
-| Sanchin   dachi | Power   stance  |
-| Zenkutsu  dachi | Forward stance  |
-| Sheko     dachi | Straddle stance |
-| Heiko     dachi | Natural stance  |
-| Musubu    dachi | Ready   stance  |
-| Neko ashi dachi | Cat     stance  |
-* Geri --Kick
-#+begin_center
-/Except the instep roundhouse, remember to curl your toes for each and every kick!/
-#+end_center
-| Mae Geri       | Front kick      |
-| Kensetsu Geri  | Joint kick      |
-| Mawashi Geri   | Roundhouse kick |
-| Ushiro Geri    | Back kick       |
-| Yoko Geri      | Side kick       |
-| Fumi Komi Geri | Stomp kick      |
-| Hiza Geri      | Knee kick       |
-| Mikasuki Geri  | Crescent kick   |
-
-#+begin_center
-/Remember the join sequence: All kicks start with the hips, work to the knee, and finish with the ankle./
-#+end_center
+| Heiko     dachi  | Natural stance             |
+| Heisoku   dachi  | Attention stance           |
+| Zenkutsu  dachi  | Forward stance             |
+| Shiko     dachi  | Horse, Straddle stance     |
+| Sanchin   dachi  | Hour Glass, Power   stance |
+| Neko ashi dachi  | Cat stance                 |
+| Tsuru ashi dachi | Stork stance               |
+| Teiji dachi      | t-stance                   |
+| Kokutsu dachi    | back stance                |
+# | kiba dachi       | straddle stance            |
+# | Musubu    dachi | Ready   stance         |
+* spacing newpage                                            :ignore:
+  \newpage
 * Uke --Block
 #+begin_center
 /90% of blocks are executed with the front hand, making it easier to counter!/
 #+end_center
 
-| Hariatoshi  | 3 point low block  |
-| Kake uke    | Hooking block      |
-| Mawashi uke | Roundhouse block   |
-| Age uke     | High block         |
-| Uchi uke    | Inside block       |
-| Soto uke    | Outside block      |
-| Gedan bari  | Low sweeping block |
-| Kakuto uke  | Chicken head block |
-| Teisho uke  | Palm block         |
+| Gedan bari   | Low sweeping block      |
+| Jodan uke    | Rising block            |
+| Chudan uke   | Inside forearm block    |
+| Soto uke     | Outside forearm block   |
+| Hariatoshi   | Low 3 point block       |
+| Kakewaki uke | Cross block             |
+| Mawashi uke  | Roundhouse block        |
+| Kake uke     | Hook block              |
+| Hiza uke     | Shin block              |
+| Kakuto uke   | Crane head block        |
+| Shuto uke    | Knife hand block        |
+| Morto uke    | Augmented forearm block |
+| Teisho uke   | Palm block              |
 
 * Te --Hand Strikes
 #+begin_center
+#+latex: \vspace{-1em}
 /The principles of expansion and contraction are a must when striking and as well for blocking!/
 #+end_center
 
-| Oi zuke      | Lunge punch   |
-| Gyaku zuke   | Reverse punch |
-| Kizama zuke  | Jab punch     |
-| Shuto        | Knifehand     |
-| Teisho       | Palm heel     |
-| Empi         | Elbow         |
-| Rekkan       | Backfist      |
-| Nukite       | Finger strike |
-| Mawashi zuke | Hook punch    |
+| Oi zuki      | Lunge punch       |
+| Gy Aku zuki  | Reverse punch     |
+| Kizama zuki  | Front jab         |
+| Morto zuki   | Double fist punch |
+| Rek Ken      | Backfist          |
+| Ura Ken      | Back fist         |
+| Tetsui       | Hammer fist       |
+| Shuto        | Knifehand         |
+| Teisho       | Palm heel         |
+| Empi         | Elbow             |
+| Mawashi zuki | Hook punch        |
+| Nukite       | Finger strike     |
 
-* Japanese Numbers
-  |  0 | rei   |
-  |  1 | ichi  |
-  |  2 | ni    |
-  |  3 | san   |
-  |  4 | yon   |
-  |  5 | go    |
-  |  6 | roku  |
-  |  7 | nana  |
-  |  8 | hachi |
-  |  9 | kyu   |
-  | 10 | juu   |
-         
+* Geri --Kick
+
+#+begin_center
+#+latex: \vspace{-1em}
+/Except the instep roundhouse, remember to curl your toes for each and every kick!/
+#+end_center
+
+| Mae Geri Kekomi  | Front thrust kick      |
+| Mae Geri Keage   | Front snap kick        |
+| Yoko Geri Kekomi | Side thrust kick       |
+| Yoko Geri Keage  | Side snap kick         |
+| Kinsetsu Geri    | Joint kick, Knee break |
+| Mawashi Geri     | Roundhouse kick        |
+| Fumi Komi Geri   | Stomp kick             |
+| Ushiro Geri      | Back kick              |
+| Ashi Barai       | Foot sweep             |
+| Mikasuki Geri    | Crescent kick          |
+# | Hiza Geri        | Knee kick              |
+
+#+begin_center
+#+latex: \vspace{-0.3em}
+/Remember the joint sequence: All kicks start with the hips, work to the knee, and finish with the ankle./
+#+end_center
 * spacing newpage                                            :ignore:
   \newpage
 * Kata  --Forms                              
+A /kata/ is the execution of a pre-defined series of movements which simulates
+a confrontation against multiple opponents.
+As such, remember to place yourself in the midst of your enemies and to visualise them
+--this in turn necessitates rhythm and timing.
+Moreover, full all-out intense kata will quickly demonstrate the importance of breathing.
+
+\room
+The key points of kata are:
+| Pace | Breathing | Eyes | Focus | Kiai | Technique |
+
+#+begin_center 
+/Always concentrate on posture. Never rush through the kata./
+/You will become what you practice./ 
+/If you rush your movements without purpose, your kata will become ragged and weak./
+#+end_center
+
 | Taikyoku Gedan       | First course lower          |
 | Taikyoku Chudan      | First course middle         |
 | Taikyoku Jodan       | First course upper          |
@@ -111,14 +179,26 @@
 | Taikyoku Kake Uke    | First course hooking block  |
 | Gekisai Itch         | Attack & Smash 1            |
 | Gakisai Ni           | Attack & Smash 2            |
-| Sanchin              | Three battles               |
-| Tensho               | Turning                     |
-| Saifa                | Destroy, Defeat             |
+| Sanchin              | Three Battles               |
+| Tensho               | Rotating Palm               |
+| Saifa                | Destroy & Defeat            |
 | Seienchin            | Attack, Conquer, Suppress   |
-| Sanseiru             | Thirty-six movements        |
+| San Sei Ryu          | Thirty-six movements        |
 | Shi Sho Chin         | Twenty-seven movements      |
-| Seisun               | Fifty-six movements         |
+| Seisan               | Fifty-six movements         |
 | Seipai               | Eighteen movements          |
+
+* spacing newpage                                            :ignore:
+  \newpage
+* COMMENT Need to Work on
++ Neko Ashi Dachi
++ Ura ken
++ Mawashi geri
++ fumi komi
++ ushiro geri
++ ashi barai
++ Gekisai ni
++ sanchin
 
 * COMMENT Making README.md
 
@@ -133,24 +213,15 @@ C-c C-c: Evaluate src block.
      #+OPTIONS: toc:nil d:nil
      # Toc is displayed below at a strategic position.
 
-     Pretty cheat sheets, or “reference cards”, obtainable from Org-mode files.
-
-     :Hide:
-     This project is to contain a listing of common results in X Theory.
+     This project is to contain a listing of termiology and basics
+     for Goju Ryu karate.
      
-     *The repo contains other articles I've written on X Theory;*
-     *which may be read in a blog-format at:*
-     https://alhassy.github.io/blog/categories/#Xtheory
-     :End:
-
      *The listing sheet, as PDF, can be found
      [here]({{{URL}}}/blob/master/CheatSheet.pdf)*, 
      while below is an unruly html rendition.
  
-     :Hide:
      This reference sheet is built around the system
      https://github.com/alhassy/CheatSheet.
-     :End:
 
      #+TOC: headlines 2
      #+INCLUDE: CheatSheet.org     
