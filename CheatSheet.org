@@ -1,10 +1,12 @@
 * Header                                                      :do:not:ignore:
 #+TITLE: Goju-Ryu Karate
 #+SUBTITLE: Cheat Sheet
-#+MACRO: URL https://github.com/alhassy/GojuRyuCheatSheet
-#+MACRO: ShowURL @@latex:{\tiny\hspace{6em}\url{ {{{URL}}} } }@@
+#+MACRO: URL https://alhassy.com/GojuRyuCheatSheet/CheatSheet.pdf
+#+MACRO: ShowURL @@latex:{\tiny\hspace{1em}\url{ {{{URL}}} } }@@
+# +MACRO: ShowURL @@latex:{\tiny\hspace{6em}\url{ {{{URL}}} } }@@
 # AUTHOR: [[http://www.cas.mcmaster.ca/~alhassm/][Musa Al-hassy]] {{{ShowURL}}}
-#+AUTHOR: The McMaster Dojo {{{ShowURL}}}
+# +AUTHOR: The McMaster Dojo {{{ShowURL}}}
+#+AUTHOR: The Martial Arts Center  {{{ShowURL}}}
 #+EMAIL: alhassy@gmail.com
 #+DESCRIPTION: This document is written by Musa Al-hassy for his learning in the Winter of 2019.
 #+STARTUP: hideblocks
@@ -12,7 +14,7 @@
 #+TODO: spacing
 #+OPTIONS: d:nil
 
-#+INCLUDE: CheatSheet/CheatSheetSetup.org
+#+include: ~/CheatSheet/CheatSheetSetup.org
 
 * Dachi --Stance
 #+begin_center
@@ -52,7 +54,7 @@
 | Teisho uke   | Palm block              |
 
 * spacing newpage                                            :ignore:
-  \newpage
+  \vfill
 * Te --Hand Strikes
 #+begin_center
 #+latex: \vspace{-1em}
@@ -95,7 +97,7 @@
 #+latex: \vspace{-0.3em}
 /Remember the joint sequence: All kicks start with the hips, work to the knee, and finish with the ankle./
 #+end_center
-* Kata  --Forms                              
+* Kata  --Forms
 A /kata/ is the execution of a pre-defined series of movements which simulates
 a confrontation against multiple opponents.
 As such, remember to place yourself in the midst of your enemies and to visualise them
@@ -122,30 +124,30 @@ Technique - Everything comes back to basics. Every stance, every strike, every k
 Kiai - Remember, you are simulating a fight against multiple attackers. Learn the proper kiai points in your katas and yell them out!
 :End:
 
-#+begin_center 
+#+begin_center
 /Always concentrate on posture. Never rush through the kata./
-/You will become what you practice./ 
+/You will become what you practice./
 /If you rush your movements without purpose, your kata will become ragged and weak./
 #+end_center
 
 \newpage
-| *Kata --Forms* |
+| *Kata ---Forms* |
 #
-| Taikyoku Gedan       | First course lower          |
-| Taikyoku Chudan      | First course middle         |
-| Taikyoku Jodan       | First course upper          |
-| Taikyoku Mawashi Uke | First course circular block |
-| Taikyoku Kake Uke    | First course hooking block  |
-| Gekisai Itch         | Attack & Smash 1            |
-| Gakisai Ni           | Attack & Smash 2            |
-| Sanchin              | Three Battles               |
-| Tensho               | Rotating Palm               |
-| Saifa                | Destroy & Defeat            |
-| Seienchin            | Attack, Conquer, Suppress   |
-| San Sei Ryu          | Thirty-six movements        |
-| Shi Sho Chin         | Twenty-seven movements      |
-| Seisan               | Fifty-six movements         |
-| Seipai               | Eighteen movements          |
+# | Taikyoku Gedan       | First course lower          |
+# | Taikyoku Chudan      | First course middle         |
+# | Taikyoku Jodan       | First course upper          |
+# | Taikyoku Mawashi Uke | First course circular block |
+# | Taikyoku Kake Uke    | First course hooking block  |
+| Gekisai Itch | Attack & Smash 1          |
+| Gakisai Ni   | Attack & Smash 2          |
+| Sanchin      | Three Battles             |
+| Tensho       | Rotating Palm             |
+| Saifa        | Destroy & Defeat          |
+| Seienchin    | Attack, Conquer, Suppress |
+| San Sei Ryu  | Thirty-six movements      |
+| Shi Sho Chin | Twenty-seven movements    |
+| Seisan       | Fifty-six movements       |
+| Seipai       | Eighteen movements        |
 
 * Goju History
 
@@ -174,33 +176,48 @@ Kiai - Remember, you are simulating a fight against multiple attackers. Learn th
 #+end_center
 
 * spacing newpage                                            :ignore:
-  \newpage
+#  \newpage
+
+# \vfill
+\columnbreak
 
 * Local Goju History
 + Don Warrener, 6ᵗʰ Dan :: Popularised Goju across southern Ontario.
   - Practising Goju since the age of 17; won the Canadian Karate Championships in 1968.
-  - Studied under Richard Kim, Bob Dalgleish, Frank Lee, and 
+  - Studied under Richard Kim, Bob Dalgleish, Frank Lee, and
      Goshi Yamaguchi --Gogen's son.
 
++ Joey Jackson, 4th Dan :: Sensei of [[https://niagaramartialarts.com/][The Martial Arts Center]].
+  - He has been training at the center since the age of 11 years old.
+  - Proficient in Goju Ryu (4th Dan) and Kobudo (1st Dan) ---weaponry.
+  - Direct student of Kyoshi Mike Sywyk, 7th Dan
+    * He was accredited with the title of /Kyoshi/ (``school teacher'') by the Japanese Government in 2011.
+  - Student of Teruo Chinen Sensei, 7th Dan ---who formed Tachi Waza or ``Formation 11''.
+    - Chinen studied under Chojun Miyagi's senior student Eichi Miyazato.
+      
+:McMaster:     
 + Philip McColl, 5ᵗʰ Dan :: Sensei of McMaster Dojo since 1984
     --the dojo was founded by Ray Greenway in 1969.
   - Began Karate at the age of 24 at the Delta club in Hamilton, run by Don Warrener.
-  - Three of his graduated Shodans are World Champions 
+  - Three of his graduated Shodans are World Champions
      # World Karate Chamopnship in Argentina
   - Proficient in Goju Ryu, Kobudo --weaponry--, and Jujitsu.
   - Student Chris Stafford is the founder and Sensei of the [[http://torontokarate.ca/][Toronto Goju Ryu dojo]].
 
+    
 #+begin_center
 /The ultimate aim of karate lies not in victory or defeat,/
 /but in the perfection of character of its participants./
 ─Gichin Funakoshi
 #+end_center
 
+:End:
+
 * General Terms
 
 # latex:  {\vspace{-0em} .\hspace{20em} \fbox{Japanese numbers}} \\
 
-#+begin_parallel 
+#+begin_parallel
 
 | Sensei   | teacher           |
 | O'Sensei | Teacher's teacher |
@@ -240,7 +257,7 @@ Kiai - Remember, you are simulating a fight against multiple attackers. Learn th
 + 20, 30, …, 90  are ni juu, san juu, …, kyuu juu.
   - Likewise, 200, …, 900 are ni hyaku, …, kyuu hyaku.
     * Exceptions: 300 san byaku, 600 ro ppyaku, 800 ha ppyaku.
-+ twenty-one, sixty-nine, eighty-two, … are 
++ twenty-one, sixty-nine, eighty-two, … are
    ni juu ichi, roku juu kyuu, hachi juu ni, … .
   - Likewise, 368 is three hundred and sixty-eight which is san byaku roku juu hachi.
 
@@ -256,12 +273,12 @@ Kiai - Remember, you are simulating a fight against multiple attackers. Learn th
    |  8 | hachi |
    |  9 | kyu   |
    | 10 | juu   |
-         
+
 * COMMENT Suggested Readings
 
 Suggested reading list...
 
-Traditional Goju Ryu KarateTraditional Goju Ryu Karate - by Don Warrener 
+Traditional Goju Ryu KarateTraditional Goju Ryu Karate - by Don Warrener
 Traditional Goju is the very first book ever written in English demonstrating the kai shu or open hand katas of this beautiful flowing style of karate.
 
 
@@ -271,22 +288,22 @@ Features Kururumfa Kata and loads of philosophy and martial arts psychology for 
 Tracy Warrener20th Century Samurai - by Don Warrener
 Focuses on Richard 'Biggie' Kim's philosophy and psychology of the martial arts. It is the first book written on the history, philosophy and psychology of the Japanese martial arts by one of the most famous masters of the 20th Century.
 
-The Classical ManThe Classical Man - by Richard Kim 
+The Classical ManThe Classical Man - by Richard Kim
 Sensei Richard Kim is the foremost authority on the facts, philosophies, psychology and morality of the ancient Samurai. With half a century of vast experience studying under renowned masters, Kim is extremely qualified to present The Classical Man.
 
-Tracy WarrenerThe Weaponless Warriors - by Richard Kim 
+Tracy WarrenerThe Weaponless Warriors - by Richard Kim
 An informal history of Okinawan karate and its growth, told through vignettes about its most famous practitioners, this rare chronicle is one of the most thoroughly researched histories on Okinawan karate, with rare photographs of the earliest pioneers of naha-te, the empty-hand style of self-defence.
 
-Tracy WarrenerKarate Sensei - by Peter Urban 
+Tracy WarrenerKarate Sensei - by Peter Urban
 There was only one Peter Urban. He was one of the most fortunate martial artists in America. He was trained by three of Japan's modern day masters: Mas Oyama, Gogen "The Cat" Yamaguichi and Richard Kim.
 
-Tracy WarrenerKarate Dojo - by Peter Urban 
+Tracy WarrenerKarate Dojo - by Peter Urban
 Karate is not only a means of self-defense; it is also a sport and a philosophy. The Karate Dojo: Traditions and Tales of a Martial Art examines each of these aspects through the colorful legends, tales, and traditions that are associated with the art.
 
-Tracy WarrenerKarate Do My Way of Life - by Gichin Funakoshi 
+Tracy WarrenerKarate Do My Way of Life - by Gichin Funakoshi
 Linking the time when karate was strictly an Okinawan art of self-defense shrouded in the deepest secrecy and the present day, when it has become a martial art practised throughout the world, is Gichin Funakoshi, the "Father of Karate-do."
 
-Tracy WarrenerGoju Ryu Karate Do Kyohan - by Gogen Yamaguchi 
+Tracy WarrenerGoju Ryu Karate Do Kyohan - by Gogen Yamaguchi
 Full of rare photos of Yamaguchi himself doing katas as well as showing exercises, postures and throws. Hundreds of fine detail line drawings depicting the katas as well as complete analysis of each kata by the founder make this an invaluable asset in the learning of this style.
 
 * COMMENT Making README.md
@@ -296,7 +313,7 @@ C-c C-c: Evaluate src block.
 #+NAME: make-readme
 #+BEGIN_SRC emacs-lisp :results none
 (with-temp-buffer
-    (insert 
+    (insert
     "#+EXPORT_FILE_NAME: README.md
      #+HTML: <h1> CheatSheet </h1>
      #+OPTIONS: toc:nil d:nil
@@ -304,16 +321,16 @@ C-c C-c: Evaluate src block.
 
      This project is to contain a listing of termiology and basics
      for Goju Ryu karate.
-     
+
      *The listing sheet, as PDF, can be found
-     [here]({{{URL}}}/blob/master/CheatSheet.pdf)*, 
+     [here]({{{URL}}}/blob/master/CheatSheet.pdf)*,
      while below is an unruly html rendition.
- 
+
      This reference sheet is built around the system
      https://github.com/alhassy/CheatSheet.
 
      #+TOC: headlines 2
-     #+INCLUDE: CheatSheet.org     
+     #+INCLUDE: CheatSheet.org
     ")
     ;; (set-visited-file-name "ReadIt2.md")
     (org-mode)

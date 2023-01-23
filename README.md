@@ -4,7 +4,7 @@ This project is to contain a listing of termiology and basics
 for Goju Ryu karate.
 
 **The listing sheet, as PDF, can be found
-[here](<https://github.com/alhassy/GojuRyuCheatSheet/blob/master/CheatSheet.pdf>)**, 
+[here](<https://alhassy.com/GojuRyuCheatSheet/CheatSheet.pdf>)**,
 while below is an unruly html rendition.
 
 This reference sheet is built around the system
@@ -13,14 +13,14 @@ This reference sheet is built around the system
 
 # Table of Contents
 
-1.  [Dachi &#x2013;Stance](#org792d3aa)
-2.  [Uke &#x2013;Block](#org852ddde)
-3.  [Te &#x2013;Hand Strikes](#org8618f12)
-4.  [Geri &#x2013;Kick](#orgffff944)
-5.  [Kata  &#x2013;Forms](#orgacc4085)
-6.  [Goju History](#org00ddd4c)
-7.  [Local Goju History](#org4071813)
-8.  [General Terms](#org3238bad)
+1.  [Dachi &#x2013;Stance](#orgacb072c)
+2.  [Uke &#x2013;Block](#org11f1c0b)
+3.  [Te &#x2013;Hand Strikes](#org64176ab)
+4.  [Geri &#x2013;Kick](#orgdeb688c)
+5.  [Kata  &#x2013;Forms](#orga3fbe28)
+6.  [Goju History](#org17c0888)
+7.  [Local Goju History](#org3e956b2)
+8.  [General Terms](#orgd65cd2f)
 
 
 
@@ -34,12 +34,16 @@ This reference sheet is built around the system
 
 
 
-<a id="org792d3aa"></a>
+
+
+<a id="orgacb072c"></a>
 
 # Dachi &#x2013;Stance
 
 <div class="org-center">
-*Power is rooted in the feet, developed by the knees, and directed by the hips!*
+<p>
+<i>Power is rooted in the feet, developed by the knees, and directed by the hips!</i>
+</p>
 </div>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -107,12 +111,14 @@ This reference sheet is built around the system
 </table>
 
 
-<a id="org852ddde"></a>
+<a id="org11f1c0b"></a>
 
 # Uke &#x2013;Block
 
 <div class="org-center">
-*90% of blocks are executed with the front hand, making it easier to counter!*
+<p>
+<i>90% of blocks are executed with the front hand, making it easier to counter!</i>
+</p>
 </div>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -203,15 +209,17 @@ This reference sheet is built around the system
 </tbody>
 </table>
 
-\newpage
+\vfill
 
 
-<a id="org8618f12"></a>
+<a id="org64176ab"></a>
 
 # Te &#x2013;Hand Strikes
 
 <div class="org-center">
-*The principles of expansion and contraction are a must when striking and as well for blocking!*
+<p>
+<i>The principles of expansion and contraction are a must when striking and as well for blocking!</i>
+</p>
 </div>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -297,12 +305,14 @@ This reference sheet is built around the system
 </table>
 
 
-<a id="orgffff944"></a>
+<a id="orgdeb688c"></a>
 
 # Geri &#x2013;Kick
 
 <div class="org-center">
-*Except the instep roundhouse, remember to curl your toes for each and every kick!*
+<p>
+<i>Except the instep roundhouse, remember to curl your toes for each and every kick!</i>
+</p>
 </div>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -376,11 +386,13 @@ This reference sheet is built around the system
 </table>
 
 <div class="org-center">
-*Remember the joint sequence: All kicks start with the hips, work to the knee, and finish with the ankle.*
+<p>
+<i>Remember the joint sequence: All kicks start with the hips, work to the knee, and finish with the ankle.</i>
+</p>
 </div>
 
 
-<a id="orgacc4085"></a>
+<a id="orga3fbe28"></a>
 
 # Kata  &#x2013;Forms
 
@@ -422,9 +434,11 @@ The key points of kata are:
 </table>
 
 <div class="org-center">
-*Always concentrate on posture. Never rush through the kata.*
-*You will become what you practice.* 
-*If you rush your movements without purpose, your kata will become ragged and weak.*
+<p>
+<i>Always concentrate on posture. Never rush through the kata.</i>
+<i>You will become what you practice.</i>
+<i>If you rush your movements without purpose, your kata will become ragged and weak.</i>
+</p>
 </div>
 
 \newpage
@@ -437,7 +451,7 @@ The key points of kata are:
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left">**Kata &#x2013;Forms**</td>
+<td class="org-left"><b>Kata &#x2014;Forms</b></td>
 </tr>
 </tbody>
 </table>
@@ -452,44 +466,14 @@ The key points of kata are:
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left">Taikyoku Gedan</td>
-<td class="org-left">First course lower</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Taikyoku Chudan</td>
-<td class="org-left">First course middle</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Taikyoku Jodan</td>
-<td class="org-left">First course upper</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Taikyoku Mawashi Uke</td>
-<td class="org-left">First course circular block</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Taikyoku Kake Uke</td>
-<td class="org-left">First course hooking block</td>
-</tr>
-
-
-<tr>
 <td class="org-left">Gekisai Itch</td>
-<td class="org-left">Attack & Smash 1</td>
+<td class="org-left">Attack &amp; Smash 1</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Gakisai Ni</td>
-<td class="org-left">Attack & Smash 2</td>
+<td class="org-left">Attack &amp; Smash 2</td>
 </tr>
 
 
@@ -507,7 +491,7 @@ The key points of kata are:
 
 <tr>
 <td class="org-left">Saifa</td>
-<td class="org-left">Destroy & Defeat</td>
+<td class="org-left">Destroy &amp; Defeat</td>
 </tr>
 
 
@@ -543,7 +527,7 @@ The key points of kata are:
 </table>
 
 
-<a id="org00ddd4c"></a>
+<a id="org17c0888"></a>
 
 # Goju History
 
@@ -569,42 +553,38 @@ The key points of kata are:
 -   Miyagi's student Gogen ‘the cat’ Yamaguchi formed the All-Japan Karate-do Goju-kai, spreading the style throughout the world.
 
 <div class="org-center">
-*The ultimate aim of karate lies not in victory or defeat but in the perfection of character of its participants.*
+<p>
+<i>The ultimate aim of karate lies not in victory or defeat but in the perfection of character of its participants.</i>
 –Gichin Funakoshi
+</p>
 </div>
 
-\newpage
+\columnbreak
 
 
-<a id="org4071813"></a>
+<a id="org3e956b2"></a>
 
 # Local Goju History
 
 -   **Don Warrener, 6ᵗʰ Dan:** Popularised Goju across southern Ontario.
     -   Practising Goju since the age of 17; won the Canadian Karate Championships in 1968.
-    -   Studied under Richard Kim, Bob Dalgleish, Frank Lee, and 
+    -   Studied under Richard Kim, Bob Dalgleish, Frank Lee, and
         Goshi Yamaguchi &#x2013;Gogen's son.
 
--   **Philip McColl, 5ᵗʰ Dan:** Sensei of McMaster Dojo since 1984
-    &#x2013;the dojo was founded by Ray Greenway in 1969.
-    -   Began Karate at the age of 24 at the Delta club in Hamilton, run by Don Warrener.
-    -   Three of his graduated Shodans are World Champions
-    -   Proficient in Goju Ryu, Kobudo &#x2013;weaponry&#x2013;, and Jujitsu.
-    -   Student Chris Stafford is the founder and Sensei of the [Toronto Goju Ryu dojo](http://torontokarate.ca/).
-
-<div class="org-center">
-*The ultimate aim of karate lies not in victory or defeat,*
-*but in the perfection of character of its participants.*
-─Gichin Funakoshi
-</div>
+-   **Joey Jackson, 4th Dan:** Sensei of [The Martial Arts Center](https://niagaramartialarts.com/).
+    -   He has been training at the center since the age of 11 years old.
+    -   Proficient in Goju Ryu (4th Dan) and Kobudo (1st Dan) &#x2014;weaponry.
+    -   Direct student of Kyoshi Mike Sywyk, 7th Dan
+        -   He was accredited with the title of *Kyoshi* (\`\`school teacher'') by the Japanese Government in 2011.
+    -   Student of Teruo Chinen Sensei, 7th Dan &#x2014;who formed Tachi Waza or \`\`Formation 11''.
+        -   Chinen studied under Chojun Miyagi's senior student Eichi Miyazato.
 
 
-<a id="org3238bad"></a>
+<a id="orgd65cd2f"></a>
 
 # General Terms
 
-<div class="parallel">
-
+<div style="column-rule-style: none nil;column-count: 2;">
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -720,7 +700,7 @@ The key points of kata are:
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left">[<span class="underline">Japanese Numbers</span>](https://www.linguajunkie.com/japanese/count-in-japanese-1-100)</td>
+<td class="org-left"><a href="https://www.linguajunkie.com/japanese/count-in-japanese-1-100"><span class="underline">Japanese Numbers</span></a></td>
 </tr>
 </tbody>
 </table>
@@ -819,7 +799,7 @@ The key points of kata are:
 -   20, 30, …, 90  are ni juu, san juu, …, kyuu juu.
     -   Likewise, 200, …, 900 are ni hyaku, …, kyuu hyaku.
         -   Exceptions: 300 san byaku, 600 ro ppyaku, 800 ha ppyaku.
--   twenty-one, sixty-nine, eighty-two, … are 
+-   twenty-one, sixty-nine, eighty-two, … are
     ni juu ichi, roku juu kyuu, hachi juu ni, … .
     -   Likewise, 368 is three hundred and sixty-eight which is san byaku roku juu hachi.
 
